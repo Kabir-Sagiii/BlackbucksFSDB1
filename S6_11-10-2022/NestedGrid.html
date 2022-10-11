@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .container {
+        width: 800px;
+        height: 400px;
+        display: grid;
+        grid-template-columns: 800px;
+        grid-template-rows: 50px 220px 130px;
+        grid-gap: 5px;
+      }
+      .box {
+        text-align: center;
+        color: white;
+      }
+      .box1 {
+        background-color: lightcoral;
+      }
+      .box2 {
+        /* background-color: lightgreen; */
+        display: grid;
+        grid-template-columns: 400px 400px;
+        grid-gap: 5px;
+      }
+      .box3 {
+        /* background-color: lightslategrey; */
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 5px;
+      }
+      .box21 {
+        background-color: orangered;
+      }
+      .box22 {
+        background-color: orange;
+      }
+      .box31 {
+        background-color: rgb(25, 12, 7);
+      }
+      .box32 {
+        background-color: rgb(50, 145, 193);
+      }
+      .box33 {
+        background-color: rgb(40, 205, 84);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box box1">Box 1</div>
+
+      <div class="box box2">
+        <div class="box21">Box 2 1</div>
+        <div class="box22">Box 2 2</div>
+      </div>
+
+      <div class="box box3">
+        <div class="box31">Box 31</div>
+        <div class="box32">Box 32</div>
+        <div class="box33">Box33</div>
+      </div>
+    </div>
+  </body>
+</html>

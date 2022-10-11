@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      body {
+        margin: 0px;
+      }
+      .container {
+        margin: auto;
+        width: 1200px;
+        height: 600px;
+        display: grid;
+        grid-template-columns: 1200px;
+        grid-template-rows: 50px 500px 50px;
+      }
+      .box {
+        text-align: center;
+        color: white;
+      }
+      .box1 {
+        background-color: black;
+      }
+      iframe {
+        border: none;
+      }
+      .box2 {
+        /* background-color: lightgreen; */
+        display: grid;
+        grid-template-columns: 300px 900px;
+      }
+      .box3 {
+        background-color: lightslategrey;
+      }
+      .box21 {
+      }
+      .box22 {
+        /* background-color: orange; */
+      }
+      a {
+        color: white;
+        text-decoration: none;
+        margin-right: 50px;
+        line-height: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box box1">
+        <a href="htmlConcepts.html" target="techConcepts">HTML</a>
+        <a href="cssConcepts.html" target="techConcepts">CSS</a>
+        <a href="Javascriptconcept.html" target="techConcepts">JAVASCRIPT</a>
+        <a href="">JAVA</a>
+        <a href="">PYTHON</a>
+        <a href="">MACHINE LEARNING</a>
+      </div>
+
+      <div class="box box2">
+        <div class="box21">
+          <iframe
+            width="100%"
+            height="100%"
+            name="techConcepts"
+            src="htmlConcepts.html"
+          ></iframe>
+        </div>
+        <div class="box22">
+          <iframe
+            width="100%"
+            height="100%"
+            name="techDetailsConcepts"
+            src="IntroHtml.html"
+          ></iframe>
+        </div>
+      </div>
+
+      <div class="box box3">Box 3</div>
+    </div>
+  </body>
+</html>
