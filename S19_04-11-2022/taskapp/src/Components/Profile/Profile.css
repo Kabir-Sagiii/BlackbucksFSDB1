@@ -1,0 +1,16 @@
+.profile {
+    box-shadow: 0 0 10px black;
+    padding: 20px;
+
+}
+h3,h4{
+    margin: 0;
+    margin-top: 5px;
+}
+button {
+    padding: 10px 15px;
+    border: none;
+    background-color: orangered;
+    color: white;
+    margin-top: 5px;
+}
